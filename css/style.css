@@ -1,0 +1,101 @@
+body {
+  background-image: url(../image/higa1.jpg);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hega {
+  width: 800px;
+  height: 120px;
+  text-align: center;
+  color: #4df050;
+  font-weight: bold;
+  font-size: 55px;
+ margin-top: 100px;
+padding: 20px;
+ margin-left: 380px;
+ border: 3px solid blue;
+ border-radius: 15px;
+
+ background-color: red;
+ position: relative;
+ animation-name: example;
+ animation-duration: 4s;
+
+}
+
+.left {
+  width: 30%;
+ 
+}
+.right {
+  width: 30%;
+ 
+}
+.num {
+  background-color: gold;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 55px;
+}
+
+.minus {
+  background-color: rgb(241, 150, 171);
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 30px;
+  margin-left: 100px;
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 55px;
+}
+.plus {
+  background-color: rgb(10, 177, 60);
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 30px;
+  margin-left: 200px;
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 55px;
+}
+.span {
+  margin-right: 50px;
+  width: 30%;
+ 
+}
+img{
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  
+}
+
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}

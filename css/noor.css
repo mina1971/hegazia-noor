@@ -1,0 +1,61 @@
+*{
+   
+    font-size: 30px;
+    text-align: center;
+    justify-items: center;
+}
+h1{
+    width: 1000px;
+    margin-left: 250px;
+    border-radius: 15px;
+    text-align: center;
+    justify-items: center;
+    background-color: burlywood;
+    padding-bottom: 15px;
+    border: 3px dotted black;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+a{
+   color: #000;
+   text-decoration: none;
+  
+}
+.container{
+    border: 3px solid rgb(0, 255, 13);
+    border-radius: 10px;
+}
+h2{
+    border: 1px solid black;
+    width: 400px;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: rgb(180, 114, 241);
+    padding-bottom: 10px;
+}
+input{
+    border-radius: 15px;
+    background-color: gold;
+}
+button{
+    border-radius: 15px;
+    background-color: #e10606;
+}
+.noor_read{
+    color: #e10606;
+    border-right: 2px solid blue;
+
+}
+.gass_read{
+    color: #2006e1; 
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
